@@ -105,52 +105,52 @@ let header = $(`
 
 // Footer
 
-// let footer = $(`
-//   <footer class="footer sticky-bottom"  style="background-color:#2b2a2a;">
-//     <div class="p-4">
-//       <div class="container-fluid quote-container">
-//         <div class="quotes"    style="text-align:center;">
-//         <!--SVG code for quote-left icon-->
-//         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1.5em" height="1.5em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M7 21a4 4 0 0 1-4-4c0-1.473 1.333-6.14 4-14h2L7 13a4 4 0 1 1 0 8zm10 0a4 4 0 0 1-4-4c0-1.473 1.333-6.14 4-14h2l-2 10a4 4 0 1 1 0 8z" fill="#fff" fill-rule="evenodd"/></svg>
-//         </div>
-//         <p class="tag" >The beautiful thing about learning is that nobody can take it away from you.</p>
-//       </div>
+let footer = $(`
+  <footer class="footer sticky-bottom"  style="background-color:#2b2a2a;">
+    <div class="p-4">
+      <div class="container-fluid quote-container">
+        <div class="quotes"    style="text-align:center;">
+        <!--SVG code for quote-left icon-->
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1.5em" height="1.5em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M7 21a4 4 0 0 1-4-4c0-1.473 1.333-6.14 4-14h2L7 13a4 4 0 1 1 0 8zm10 0a4 4 0 0 1-4-4c0-1.473 1.333-6.14 4-14h2l-2 10a4 4 0 1 1 0 8z" fill="#fff" fill-rule="evenodd"/></svg>
+        </div>
+        <p class="tag" >The beautiful thing about learnisssng is that nobody can take it away from you.</p>
+      </div>
   
       
-//       <div class="container">
-//         <div class="row">
-//           <div class="col-lg-6 col-md-12 mb-4 mb-md-0 justify-content-center">
-//   <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-//   <dotlottie-player src="https://lottie.host/59ad4f4f-d7da-4879-861b-f3da0bd72cc6/Icp1pQmBJ4.lottie" background="transparent" speed="1" style="width: 400px; height: 400px" loop autoplay></dotlottie-player>          </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0 justify-content-center">
+  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+  <dotlottie-player src="https://lottie.host/59ad4f4f-d7da-4879-861b-f3da0bd72cc6/Icp1pQmBJ4.lottie" background="transparent" speed="1" style="width: 400px; height: 400px" loop autoplay></dotlottie-player>          </div>
   
   
   
-//           <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
-//             <div class="form-style-6">
-//                <div class="form-header">
-//                   <h6 class="display">Get in touch <span class="wave"><img src="assets/images/Hand.gif" width="35px"></span> </h6>
-//                 </div>
-//                   <form name="form1" action="https://formcarry.com/s/3nRxq2Aejx2" method="POST" accept-charset="UTF-8" >
-//                     <input id="name" type="text" name="name" placeholder="Your name" required/>
-//                     <input id="email" type="email" name="email" placeholder="E-mail address" required/>    
-//                     <input id="number" type="number" name="number" placeholder="Phone number" required/>                                
-//                     <textarea id="textArea" name="message" placeholder="Type your message" required></textarea>
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
+            <div class="form-style-6">
+               <div class="form-header">
+                  <h6 class="display">Get in touch <span class="wave"><img src="assets/images/Hand.gif" width="35px"></span> </h6>
+                </div>
+                  <form name="form1" action="https://formcarry.com/s/3nRxq2Aejx2" method="POST" accept-charset="UTF-8" >
+                    <input id="name" type="text" name="name" placeholder="Your name" required/>
+                    <input id="email" type="email" name="email" placeholder="E-mail address" required/>    
+                    <input id="number" type="number" name="number" placeholder="Phone number" required/>                                
+                    <textarea id="textArea" name="message" placeholder="Type your message" required></textarea>
                 
-//                     <div id="main">
-//                       <button id="lnch" type="button" value="Send" >Send</button>
-//                       <div id="lnch_btn"></div>
-//                     </div>
-//                   </form>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//       </div>
+                    <div id="main">
+                      <button id="lnch" type="button" value="Send" >Send</button>
+                      <div id="lnch_btn"></div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
   
     
       
-//   </footer>
-//   `);
+  </footer>
+  `);
 
 //"Scroll to top" button
 let upArrow = $(`
